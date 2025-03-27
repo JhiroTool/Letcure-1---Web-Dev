@@ -22,6 +22,14 @@ header {
     padding: 10px;
 }
 
+header h1 {
+    padding: 10px;
+}
+
+header p {
+    padding: 15px;
+}
+
 nav {
     background-color: #555;
     padding: 10px;
@@ -66,12 +74,13 @@ article {
 aside {
     padding: 30px;
     background-color: #f9f9f9;
-    margin: 10px;
-    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
  aside ul {
     padding: 20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
 }
 
 footer {
@@ -79,5 +88,8 @@ footer {
     background-color: #333;
     text-align: center;
     color: white;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
 }
