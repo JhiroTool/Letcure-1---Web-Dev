@@ -1,3 +1,35 @@
+.flex-container-1 {
+    display: flex;
+}
+
+.flex-item-1 {
+    flex-grow: 1;
+
+}
+
+.flex-item-2 {
+    flex-grow: 1;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex: row;
+}
+
+.flex-item-3 {
+    flex-grow: 1;
+}
+
+.flex-item-4 {
+    flex-grow: 1;
+    flex: row;
+}
+
+.flex-item-5 {
+    flex-grow: 1;
+    flex: row;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -72,9 +104,9 @@ article {
 }
 
 aside {
-    padding: 10px;
-    background-color: #f9f9f9;
     flex: 0 0 25%;
+    background-color: #f9f9f9;
+    padding: 10px;
 }
 
  aside ul {
