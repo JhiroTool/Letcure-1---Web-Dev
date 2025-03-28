@@ -2,15 +2,6 @@
     display: flex;
 }
 
-.flex-item-1 {
-    flex-grow: 1;
-
-}
-
-.flex-item-2 {
-    flex-grow: 1;
-}
-
 .flex-container-2 {
     display: flex;
     flex: row;
